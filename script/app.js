@@ -57,6 +57,6 @@ $select.addEventListener("change", () => {
     window.location.replace(window.origin + "/products/products.html?idCategory=" + $select.value)
 })
 $select1.addEventListener("change", () => {
-    window.location.replace(window.origin + "/products/products.html?idCategory=" + $select.value)
+    window.location.replace(window.origin + "/products/products.html?idCategory=" + $select1.value)
 })
 
